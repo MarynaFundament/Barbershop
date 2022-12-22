@@ -1,0 +1,42 @@
+.about {
+    padding-top: 120px;
+    // padding-bottom: 120px;
+}
+
+.about-container{
+
+}
+
+.about-list {
+}
+
+.about-item {
+    
+}
+
+.about-top-paragraph {
+    @include font(var(--primary-font), 600, 11px, 1.36, 0.02em, #303030);
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+
+.about-title {
+    @include font(var(--additional-font), 700, 42px, 1.16, 0.05em, var(--title-text-color2));
+    margin-bottom: 20px;
+
+}
+
+.about-middle-paragraph {
+    @include font(var(--primary-font), 400, 18px, 1.66, 0.02em,  var(--primary-text-color));
+    margin-bottom: 20px;
+
+}
+
+.about-lower-paragraph {
+    @include font(var(--primary-font), 400, 14px, 1.85, 0.02em,  var(--primary-text-color));
+    margin-bottom: 54px;
+}
+
+.about-button {
+}

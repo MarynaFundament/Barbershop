@@ -1,0 +1,33 @@
+.header{
+    background-color: grey;
+}
+
+.header {
+    padding-top: 32px;
+}
+
+.header-container{
+    
+}
+
+.header-logo {
+}
+.header-navigation {
+}
+.header-navigation-list {
+}
+
+.header-navigation-item {  
+    margin-right: 30px;  
+}
+
+.header-navigation-link {
+    @include font(var(--primary-font), 600, 12px, 1.22, 0.1em, var( --title-text-color))
+}
+
+.header-contact {
+    @include font(var(--primary-font), 600, 12px, 1.22, 0.1em, var( --title-text-color));
+    margin-right: 43px;
+}
+.header-button {
+}

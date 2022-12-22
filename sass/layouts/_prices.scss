@@ -1,0 +1,50 @@
+.prices {
+    padding-top: 120px;
+    padding-bottom: 120px
+}
+
+.prices-container {
+   
+}
+
+.prices-top-paragraph {
+    @include font(var(--primary-font), 600, 11px, 1.36, 0.02em, rgba(157, 164, 189, 0.6));
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+.prices-title {
+    @include font(var(--additional-font), 700, 42px, 1.16, 0.05em, var(--title-text-color1));
+
+}
+.prices-left-list {
+}
+.prices-left-item {
+    margin-bottom: 20px;
+}
+.prices-left-paragraph {
+    @include font(var(--primary-font), 400, 18px, 1.66, 0.02em, #9DA4BD);
+}
+.prices-left-span {
+    @include font(var(--primary-font), 400, 18px, 1.66, 0.02em, #9DA4BD);
+
+}
+.prices-item {
+}
+.prices-right-list {
+}
+.prices-right-item {
+    margin-bottom: 20px;
+
+}
+
+.prices-right-paragraph {
+    @include font(var(--primary-font), 400, 18px, 1.66, 0.02em, #9DA4BD);
+}
+
+.prices-right-span {
+    @include font(var(--primary-font), 400, 18px, 1.66, 0.02em, #9DA4BD);
+}
+
+.prices-button {
+}

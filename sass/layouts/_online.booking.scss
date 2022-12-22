@@ -1,0 +1,15 @@
+.online-booking {
+    background-color: #191C26;
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+
+.online-booking-container {
+    
+}
+
+
+
+.online-booking-title {
+    @include font(var(--additional-font), 700, 42px, 1.16, 0.05em, var(--title-text-color));
+}

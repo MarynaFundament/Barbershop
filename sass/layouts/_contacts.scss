@@ -1,0 +1,41 @@
+.contacts {
+    background-color: #191C26;
+    padding-top: 130px;
+    padding-bottom: 183px;
+}
+
+.contacts-container {
+    
+}
+
+.contacts-title {
+    @include font(var(--additional-font), 700, 42px, 1.16, 0.05em, var(--title-text-color));
+    margin-bottom: 40px;
+}
+
+.contacts-list {
+    margin-bottom: 70px;
+}
+
+.contacts-item {
+    margin-bottom: 20px;
+}
+
+.contacts-address {
+    @include font(var(--primary-font), 700, 18px, 1.66, 0.02em, #9DA4BD);
+}
+
+.contacts-link {
+    @include font(var(--primary-font), 400, 18px, 1.66, 0.02em, #9DA4BD);
+}
+
+.contacts-span {
+    @include font(var(--primary-font), 600, 11px, 1.36, 0.02em, var(--title-text-color));
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+
+.contacts-schedule {
+    @include font(var(--primary-font), 400, 18px, 1.66, 0.02em, #9DA4BD);
+}

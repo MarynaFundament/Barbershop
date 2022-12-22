@@ -1,0 +1,38 @@
+.hero {
+    background-color:grey;
+    padding-bottom: 40px;
+}
+
+.hero-container {
+  
+}
+
+.hero-netw {
+@include font(var(--primary-font), 600, 11px, 1.25, 0.02em, var(--title-text-color2));
+
+margin-right: 40px;
+}
+
+.hero-top-paragraph {
+@include font(var(--primary-font), 600, 11px, 1.25, 0.02em, rgba(157, 164, 189, 0.6));
+text-transform: uppercase;
+
+margin-bottom: 20px;
+}
+
+.hero-title {
+@include font(var(--additional-font), 700, 72px, 1.18, 0.05em, var(--title-text-color));
+margin-bottom: 20px;
+
+}
+
+
+.hero-main-paragraph {
+ @include font(var(--primary-font), 400, 18px, 1.66, 0.02em, #9DA4BD);
+
+}
+
+.hero-span {
+@include font(var(--primary-font), 600, 11px, 1.36, 0.01em, var(--title-text-color2))
+
+}

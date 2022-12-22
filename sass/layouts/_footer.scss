@@ -1,0 +1,25 @@
+.footer {
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.footer-container{
+   
+}
+
+.footer-symbol {
+    @include font(var(--primary-font), 600, 11px, 1.36, 0.2em, #9DA4BD);
+
+}
+
+.footer-list {
+}
+
+.footer-item {
+    margin-right: 40px;
+}
+
+.footer-link {
+    @include font(var(--primary-font), 600, 11px, 1.36, 0.2em, var(--title-text-color2));
+
+}

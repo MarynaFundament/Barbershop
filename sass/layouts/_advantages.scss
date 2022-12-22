@@ -1,0 +1,39 @@
+.advantages {
+    padding-top: 74px;
+    padding-bottom: 120px;
+}
+
+.advantages-container{
+    
+}
+
+.advantages-list {
+}
+
+.advantages-span {
+    @include font(var(--primary-font), 700, 42px, 1.35, 0.05em, var(--title-text-color2));
+    margin-bottom: 6px;
+}
+
+.advantages-paragraph {
+    @include font(var(--primary-font), 600, 11px, 1.35, 0.05em, var(--title-text-color2));
+
+}
+
+.advantages-span-main {
+    @include font(var(--primary-font), 600, 11px, 1.36, 0.02em, var(--title-text-color2));
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+
+.advantages-title {
+    @include font(var(--additional-font), 700, 42px, 1.16, 0.05em, var(--title-text-color2));
+    margin-bottom: 20px;
+
+
+}
+.advantages-paragraph-top {
+    @include font(var(--primary-font), 400, 18px, 1.66, 0.02em,  var(--primary-text-color));
+
+}

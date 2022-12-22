@@ -1,0 +1,37 @@
+.barbers {
+    background-color:  #F7F7F7;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.barbers-container{
+    
+}
+
+.barbers-paragraph-top {
+    @include font(var(--primary-font), 600, 11px, 1.36, 0.02em, #303030);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.barbers-title{
+    @include font(var(--additional-font), 700, 42px, 1.16, 0.05em, var(--title-text-color2));
+    margin-bottom: 44px;
+}
+
+.barbers-title-item{
+    @include font(var(--primary-font), 400, 18px, 1.38, 0.02em, var(--title-text-color2));
+    margin-bottom: 8px;
+}
+
+.barbers-list {
+}
+
+.barbers-item {
+    margin-bottom: 30px;
+}
+
+.barbers-paragr {
+    @include font(var(--primary-font), 400, 14px, 1.35, 0.02em, var(--accent-color));
+
+}

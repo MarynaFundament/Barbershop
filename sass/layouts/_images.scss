@@ -1,0 +1,21 @@
+.images {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.images-container {
+   
+}
+
+.images-top-paragraph{
+    @include font(var(--primary-font), 600, 11px, 1.36, 0.02em, #303030);
+    text-transform: uppercase;
+    
+    margin-bottom: 44px;
+}
+
+.hide {
+}
+.images-list {
+}
+.images-item {
+}
