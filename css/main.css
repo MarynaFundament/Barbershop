@@ -162,6 +162,7 @@ img {
   padding-top: auto;
   padding-left: 100px;
   padding-bottom: auto;
+  margin-right: -15px;
 }
 
 .hero-top-paragraph {
@@ -196,7 +197,24 @@ img {
   max-width: 360px;
 }
 
-.hero-span {
+.hero-span-back {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.01em;
+  color: var(--title-text-color2);
+}
+
+.hero-span-back::after {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  color: tomato;
+}
+
+.hero-span-forward {
   font-family: var(--primary-font);
   font-weight: 600;
   font-size: 11px;
