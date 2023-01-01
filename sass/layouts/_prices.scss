@@ -17,25 +17,60 @@
     @include font(var(--additional-font), 700, 42px, 1.16, 0.05em, var(--title-text-color1));
 
 }
-.prices-left-list {
+
+.prices-wrap{
+display: flex;
+justify-content: space-between;
+
+margin-top: 44px;
+margin-bottom: 44px;
 }
+
+.prices-left-list {
+background-color: green;  
+width: calc((100% - 30px) / 2);
+}
+
+
 .prices-left-item {
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.prices-left-item:last-child {
+    margin-bottom: 0;
+}
+
+
 .prices-left-paragraph {
     @include font(var(--primary-font), 400, 18px, 1.66, 0.02em, #9DA4BD);
 }
+
+
 .prices-left-span {
     @include font(var(--primary-font), 400, 18px, 1.66, 0.02em, #9DA4BD);
 
 }
+
 .prices-item {
 }
+
+
 .prices-right-list {
+    background-color:pink;
+    width: calc((100% - 30px) / 2);
 }
+
 .prices-right-item {
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.prices-right-item:last-child {
+    margin-bottom: 0;
+   
 }
 
 .prices-right-paragraph {
@@ -47,4 +82,18 @@
 }
 
 .prices-button {
+    display: block;
+    text-transform: uppercase;
+
+    width: 160px;
+    height: 40px;
+
+    background-color: transparent;
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+
+    cursor: pointer;
+
+    margin-right: auto;
+    margin-left: auto;
 }

@@ -1,33 +1,59 @@
 .header{
+    padding-top: 32px;
     background-color: grey;
 }
 
-.header {
-    padding-top: 32px;
-}
+
 
 .header-container{
-    
+    display: flex;
+    align-items: center;
+ 
 }
 
 .header-logo {
 }
 .header-navigation {
+    margin-right: auto;
+    
 }
 .header-navigation-list {
+    display: flex;
+    margin-left: 130px;
+    gap: 30px;
 }
 
+
 .header-navigation-item {  
-    margin-right: 30px;  
+  
 }
+
+
 
 .header-navigation-link {
     @include font(var(--primary-font), 600, 12px, 1.22, 0.1em, var( --title-text-color))
 }
 
+.header-navigation-link:hover{
+    @include font(var(--primary-font), 600, 12px, 1.22, 0.1em, var( --title-text-color));
+    color:#FF6C00;
+}
+
 .header-contact {
     @include font(var(--primary-font), 600, 12px, 1.22, 0.1em, var( --title-text-color));
     margin-right: 43px;
+  
 }
 .header-button {
+    @include font(var(--primary-font), 600, 12px, 1.33, 0.09em, var(--title-text-color));
+    text-transform: uppercase;
+
+    width: 160px;
+    height: 40px;
+
+    background-color: transparent;
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+
+    cursor: pointer;
 }

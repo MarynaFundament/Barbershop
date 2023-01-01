@@ -25,10 +25,17 @@
 }
 
 .barbers-list {
+    display: flex;
+    gap:30px;
 }
 
 .barbers-item {
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
+    width: calc((100% - 60px) / 3)
+
+    }
+
+.barbers-item-pic{
 }
 
 .barbers-paragr {

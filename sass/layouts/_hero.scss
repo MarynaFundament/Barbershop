@@ -1,22 +1,40 @@
 .hero {
-    background-color:grey;
     padding-bottom: 40px;
 }
 
 .hero-container {
+    display: flex;
+    height: 680px;
   
+}
+
+.hero-aside{
+    background-color: #fff;
+    width: 100px;
+    
+
 }
 
 .hero-netw {
 @include font(var(--primary-font), 600, 11px, 1.25, 0.02em, var(--title-text-color2));
-
 margin-right: 40px;
+}
+
+.hero-main{
+    background-image: url(../../images/Main-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+
+    padding-top: auto;
+    padding-left: 100px;
+    padding-bottom: auto;
 }
 
 .hero-top-paragraph {
 @include font(var(--primary-font), 600, 11px, 1.25, 0.02em, rgba(157, 164, 189, 0.6));
 text-transform: uppercase;
-
+margin-top: 204px;
 margin-bottom: 20px;
 }
 
@@ -29,7 +47,7 @@ margin-bottom: 20px;
 
 .hero-main-paragraph {
  @include font(var(--primary-font), 400, 18px, 1.66, 0.02em, #9DA4BD);
-
+max-width: 360px;
 }
 
 .hero-span {

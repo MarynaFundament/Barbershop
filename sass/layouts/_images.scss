@@ -16,6 +16,11 @@
 .hide {
 }
 .images-list {
+    display: flex;
+    gap:30px;
 }
+
+
 .images-item {
+    width: calc((100% - 90px) / 4)
 }

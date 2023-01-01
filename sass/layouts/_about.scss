@@ -4,14 +4,24 @@
 }
 
 .about-container{
+    display: flex;
 
 }
 
 .about-list {
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+    
 }
 
 .about-item {
     
+}
+
+.about-wrap{
+    max-width: 470px;
+  
 }
 
 .about-top-paragraph {
@@ -39,4 +49,14 @@
 }
 
 .about-button {
+    text-transform: uppercase;
+
+    width: 160px;
+    height: 40px;
+
+    background-color: transparent;
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+
+    cursor: pointer;
 }
