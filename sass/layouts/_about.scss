@@ -29,7 +29,17 @@
     text-transform: uppercase;
 
     margin-bottom: 20px;
+    display: flex;
 }
+
+.about-top-paragraph::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    color: tomato;
+    }
+
 
 .about-title {
     @include font(var(--additional-font), 700, 42px, 1.16, 0.05em, var(--title-text-color2));

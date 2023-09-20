@@ -30,7 +30,7 @@
       </nav>
 
         <a class="header-contact" href="tel: +38 044 111 11 11">+38 044 111 11 11</a>
-        <button class="header-button" type="button"> Online-booking</button>
+        <button class="header-button" type="button" data-modal-open> Online-booking</button>
     </div>
     </header>
 
@@ -39,16 +39,21 @@
        <section class="hero">
         <div class="container hero-container">
         <div class="hero-aside">
-        <a class="hero-netw" href="#">Instagram</a>
-        <a class="hero-netw" href="#">Youtube</a>
+           <ul class="hero-list"> 
+           <li><a class="hero-netw" href="#">Instagram</a></li>
+           <li> <a class="hero-netw" href="#">Youtube</a></li>
+           </ul>
         </div>
         <div class="hero-main">
             <p class="hero-top-paragraph">A hair salon for men in Kyiv</p>
             <h1 class="hero-title">BarberShop</h1>
             <p class="hero-main-paragraph">We are experts in trendy men’s haircuts.
               We work quickly, carefully and with style.</p>
+
+              <div class="hero-span-list">
               <span class="hero-span-back">Back</span>
               <span class="hero-span-forward">Forward</span>
+            </div>
         </div>
        </section>
   
@@ -57,10 +62,11 @@
        <section class="about" id="about">
         <div class="container about-container">
         <ul class="about-list">
-
+     
         <li class="about-item"> <img src="./images/Barber1Picture.jpg" alt="Barber1Picture" width="270" height="455"> </li>
         <li class="about-item"> <img src="./images/Barber2Picture.jpg.jpg" alt="Barber2Picture" width="270" height="455"> </li>
-       </ul>
+        </ul>
+         
 
         <div class="about-wrap">
        <p class="about-top-paragraph">About</p>
@@ -87,7 +93,7 @@
                 </li>
                 <li class="prices-left-item"> 
                     <p class="prices-left-paragraph">Beard trim</p>
-                    <span class="prices-left-span">from 300 uah./span>
+                    <span class="prices-left-span">from 300 uah.</span>
                 </li>
                 <li class="prices-left-item"> 
                     <p class="prices-left-paragraph">Mustache trim</p>
@@ -129,26 +135,26 @@
         <div class="container advantages-container">
         <div>
             <ul class="advantages-list">
-                <li> 
+                <li class="advantage-list-item"> 
                     <span class="advantages-span">600</span>
                      <p class="advantages-paragraph" >Satisfied customers per day</p>
                  </li>
-                <li>
+                <li class="advantage-list-item">
                     <span class="advantages-span" >50</span>
                      <p class="advantages-paragraph">Awards for excellent service</p>
                  </li>
-                <li>
+                <li class="advantage-list-item">
                      <span class="advantages-span">20</span> 
                      <p class="advantages-paragraph">Kyiv’s best 
                         barbers</p> 
                 </li>
-                <li> 
+                <li class="advantage-list-item"> 
                     <span class="advantages-span">100</span> 
                     <p class="advantages-paragraph">Gifts for regular customers</p> 
                 </li>
             </ul>
         </div>
-        <div>
+        <div class="advantages-main">
             <span class="advantages-span-main" >Old traditional school</span>
             <h2 class="advantages-title">¿Why people come to us?</h2>
             <p  class="advantages-paragraph-top">Only good things are said about us. But it's better to see and feel 1 time than read 10 times. </p>
@@ -169,16 +175,69 @@
                 <img class="barbers-item-pic" src="./images/JohnSmith.jpg" alt="John Smith"  width="370" height="346">
                 <h3 class="barbers-title-item">John Smith</h3>
                 <p class="barbers-paragr">Extreme Barber</p>
+
+                <ul class="barbers-icon-list">
+                    <li class="barbers-icon-item">
+                    <a class="barbers-icon-link" href="">
+                    <svg class="barbers-icon-svg" width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram-2-1"> </use>
+                    </svg>
+                    </a>
+                    </li>
+
+                
+                    <li class="barbers-icon-item">
+                    <a class="barbers-icon-link" href=""></a>
+                    </li>
+                    <li class="barbers-icon-item">
+                    <a class="barbers-icon-link" href=""></a>
+                    </li>
+                    <li class="barbers-icon-item">
+                    <a class="barbers-icon-link" href=""></a>
+                    </li>
+                </ul>
             </li>
             <li class="barbers-item">
                  <img class="barbers-item-pic" src="./images/MicheleDoe.jpg" alt="Michele Doe" width="370" height="346">
                 <h3 class="barbers-title-item">Michele Doe</h3>
                 <p class="barbers-paragr">Extreme Barber</p>
+               
+                <ul class="barbers-icon-list">
+                    <li class="barbers-icon-item">
+                    <a class="barbers-icon-link" href=""></a>
+                    </li>
+                    <li class="barbers-icon-item">
+                    <a class="barbers-icon-link" href=""></a>
+                    </li>
+                    <li class="barbers-icon-item">
+                    <a class="barbers-icon-link" href=""></a>
+                    </li>
+                    <li class="barbers-icon-item">
+                    <a class="barbers-icon-link" href=""></a>
+                    </li>
+                </ul>
+            
             </li>
             <li class="barbers-item">
                 <img class="barbers-item-pic" src="./images/AlanBlack.jpg" alt="AlanBlack" width="370" height="346">
                 <h3 class="barbers-title-item">AlanBlack</h3>
                 <p class="barbers-paragr">Extreme Barber</p>
+                
+                <ul class="barbers-icon-list">
+                    <li class="barbers-icon-item">
+                    <a class="barbers-icon-link" href=""></a>
+                    </li>
+                    <li class="barbers-icon-item">
+                    <a class="barbers-icon-link" href=""></a>
+                    </li>
+                    <li class="barbers-icon-item">
+                    <a class="barbers-icon-link" href=""></a>
+                    </li>
+                    <li class="barbers-icon-item">
+                    <a class="barbers-icon-link" href=""></a>
+                    </li>
+                </ul>
+            
             </li>
 
         </ul>
@@ -203,23 +262,39 @@
 
 
     <div class="contact-wrap">
-    <section class="online-booking">
-        <div class="container online-booking-container">
-       
-            <h2 class="online-booking-title">Online-booking</h2>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-       <button class="online-book-button" type="button"> Send</button>
-       </div>
-       </section> 
-        
 
-      
+        <div class="container contact-wrap-container">
+       <section class="online-booking">
+            <h2 class="online-booking-title">Online-booking</h2>
+          
+            <form class="online-footer-form">
+
+            <input type="text" 
+            class="online-input" 
+            name="online-name"
+             id="online-name">
+             <label for="online-name">Name*</label>
+
+
+            <input type="tel" 
+            class="online-input" 
+            name="online-tel"
+            id="online-tel">
+            <label for="online-tel">Phone*</label>
+
+            <textarea 
+            name="online-mess" 
+            id="online-mess"
+             class="online-text"></textarea>
+             <label for="online-mess">Message</label>
+           </form>
+
+       <button class="online-book-button" type="button"> Send</button>
+       
+       </section> 
+    
         <section class="contacts">
-            <div class="container contacts-container">
+            
                  <h2 class="contacts-title">Contacts</h2>
             <address>
             <ul class="contacts-list">
@@ -238,10 +313,8 @@
 
             <span class="contacts-span">Working hours</span>
             <p class="contacts-schedule">Every day from 9:00 to 22:00</p>
-
-        </div>
-        </div>
        </section>
+        </div>
 
     </div>
     </main>
@@ -257,6 +330,14 @@
 
         </div>
     </footer>
+
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+    <button class="modal-button" type="button" data-modal-close>X</button>
+    </div>
+</div>
+
+<script src="./js/modal.js"></script>
     
 </body>
 </html>
